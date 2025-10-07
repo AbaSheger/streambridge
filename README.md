@@ -4,11 +4,22 @@ A small-scale backend simulating CDN video delivery. Demonstrates streaming, cac
 
 ## Quick Start
 
+**Option 1: Using Maven Wrapper (recommended)**
 ```bash
-./mvnw spring-boot:run
+./mvnw spring-boot:run          # Unix/macOS
+mvnw.cmd spring-boot:run        # Windows
 ```
 
-Place `sample.mp4` in `/media`.
+**Option 2: Using Maven (if installed)**
+```bash
+mvn spring-boot:run
+```
+
+**Option 3: Using VS Code Task**
+- Open Command Palette (`Ctrl+Shift+P`)
+- Run task: "Run StreamBridge"
+
+Place `sample.mp4` in `/media` folder for testing.
 
 ## Endpoints
 
@@ -39,8 +50,36 @@ sequenceDiagram
 ## Why it exists
 “Built as a short proof of concept to explore CDN and streaming systems after reading a backend developer role description.”
 
-## Future ideas
-Redis caching, multi-node setup, load testing.
+## Development
+
+**Prerequisites:**
+- Java 17+ 
+- No Maven installation required (uses Maven Wrapper)
+
+**Build and Test:**
+```bash
+./mvnw clean compile    # Compile the project
+./mvnw test            # Run tests
+./mvnw clean package   # Build JAR file
+```
+
+**Project Structure:**
+```
+src/
+├── main/java/com/abenezer/streambridge/
+│   ├── controller/     # REST endpoints
+│   ├── service/        # Business logic
+│   ├── config/         # Configuration & filters
+│   ├── metrics/        # Metrics collection
+│   └── util/           # Utility classes
+├── main/resources/
+│   ├── application.yml # Configuration
+│   └── static/         # Demo web page
+└── test/               # Unit tests
+```
+
+## Future Ideas
+Redis caching, multi-node setup, load testing, Docker containerization.
 
 ## License
 MIT
