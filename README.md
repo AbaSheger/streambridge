@@ -23,9 +23,9 @@ Place `sample.mp4` in `/media` folder for testing.
 
 ## 🎥 Demo
 
-[![StreamBridge Demo](https://img.shields.io/badge/📺_Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/W7O4waGB62I?si=AUfnTtdxxBa7YTFA)
+[![StreamBridge Demo Video](https://img.youtube.com/vi/W7O4waGB62I/maxresdefault.jpg)](https://youtu.be/W7O4waGB62I?si=AUfnTtdxxBa7YTFA)
 
-> **🎬 [Watch Demo on YouTube](https://youtu.be/W7O4waGB62I?si=AUfnTtdxxBa7YTFA)**
+> **🎬 Click the thumbnail above to watch the demo on YouTube**
 
 
 
