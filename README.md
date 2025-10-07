@@ -21,6 +21,16 @@ mvn spring-boot:run
 
 Place `sample.mp4` in `/media` folder for testing.
 
+## 🎥 Demo
+
+Below is a short clip showing **StreamBridge** running locally:
+
+<video src="docs/demo.mp4" width="640" controls></video>
+
+This demo shows the backend streaming a local video file through the `/api/stream` endpoint, 
+and the `/api/metrics` endpoint returning real-time system statistics.  
+It demonstrates how CDN-style backends handle content delivery and track performance — all running locally.
+
 ## Endpoints
 
 * `/api/stream/{filename}` → stream file
