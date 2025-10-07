@@ -23,9 +23,11 @@ Place `sample.mp4` in `/media` folder for testing.
 
 ## 🎥 Demo
 
-[![StreamBridge Demo](https://img.shields.io/badge/📺_Watch_Demo-Click_Here-blue?style=for-the-badge)](docs/demo.mp4)
+[![StreamBridge Demo](https://img.shields.io/badge/📺_Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/W7O4waGB62I?si=AUfnTtdxxBa7YTFA)
 
-> **📹 [View Full Demo Video](docs/demo.mp4)** - Click to download and watch locally
+> **🎬 [Watch Demo on YouTube](https://youtu.be/W7O4waGB62I?si=AUfnTtdxxBa7YTFA)**
+
+
 
 This demo shows **StreamBridge** running locally, featuring:
 - 🎬 Backend streaming a local video file through the `/api/stream` endpoint
@@ -33,6 +35,8 @@ This demo shows **StreamBridge** running locally, featuring:
 - ⚡ CDN-style content delivery and performance tracking
 
 *The video demonstrates how the streaming backend handles HTTP Range requests, caches file metadata, and tracks metrics — all running locally.*
+
+
 
 ## Endpoints
 
