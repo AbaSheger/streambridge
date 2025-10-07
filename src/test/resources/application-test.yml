@@ -1,0 +1,16 @@
+server:
+  port: 0
+spring:
+  application:
+    name: streambridge
+  cache:
+    type: caffeine
+
+streambridge:
+  mediaRoot: ./media
+  smallFileThresholdBytes: 5000000
+  rateLimit:
+    tokensPerSecond: 1000
+    burst: 1000
+  security:
+    bearer: ""

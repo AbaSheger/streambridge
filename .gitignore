@@ -1,0 +1,25 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+*.iml
+.idea/
+*.log
+
+# Media
+/media/*
+!/media/.keep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp

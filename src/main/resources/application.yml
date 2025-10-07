@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: streambridge
+  cache:
+    type: caffeine
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+streambridge:
+  mediaRoot: ./media
+  smallFileThresholdBytes: 5000000
+  rateLimit:
+    tokensPerSecond: 10
+    burst: 20
+  security:
+    bearer: ""
