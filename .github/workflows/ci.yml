@@ -10,4 +10,4 @@ jobs:
           distribution: temurin
           java-version: 17
       - name: Build and Test
-        run: ./mvnw -q test
+        run: mvn clean test
